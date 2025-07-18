@@ -6,7 +6,7 @@ import axios from "axios";
 
 const AppState = (props) => {
   // const url = "http://localhost:3000/api";
-  const url = "http://electronix-backend.onrender.com/api";
+  const url = "https://electronix-backend.onrender.com/api";
   // const url = https://electronix-0bno.onrender.com/api";
 
 
