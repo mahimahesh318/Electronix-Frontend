@@ -6,6 +6,8 @@ import axios from "axios";
 
 const AppState = (props) => {
   const url = "http://localhost:3000/api";
+  // const url = https://electronix-0bno.onrender.com/api";
+
 
   const [products, setProducts] = useState([]);
   const [token,setToken] = useState([]);
