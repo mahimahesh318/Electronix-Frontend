@@ -80,8 +80,8 @@ import AppContext from "../../context/AppContext"; // import context
 const ProductDetail = () => {
   const [product, setProduct] = useState();
   const { id } = useParams();
-  const url = "http://localhost:3000/api";
-  const { addToCart } = useContext(AppContext); // use context
+  // const url = "http://localhost:3000/api";
+  const { addToCart,url } = useContext(AppContext); // use context
   const navigate = useNavigate();
 
   useEffect(() => {
